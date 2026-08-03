@@ -1,0 +1,41 @@
+# GHC (compiler)
+*.hi
+*.hi-boot
+*.o
+*.o-boot
+*.prof
+*.aux
+*.hp
+*.eventlog
+*.heap
+
+# Cabal (build artifacts)
+dist/
+dist-newstyle/
+.ghc.environment.*
+cabal.project.local
+cabal.project.local~
+*.cabal.lock
+
+# Stack (build artifacts)
+.stack-work/
+.stack-work-*/
+
+# Hpack
+*.hie
+
+# Test artifacts
+.testy-stack-work/
+tasty-suite.html
+report.html
+
+# Nix
+/result
+/result-*
+
+# Editor/OS files
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
